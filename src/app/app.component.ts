@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-application';
+  
+  selectedElement='recipes';
+
+  onNavigation(event){
+
+    this.selectedElement=event;
+  }
+
+ 
+
+
+
+
 }

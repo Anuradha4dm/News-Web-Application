@@ -1,0 +1,18 @@
+events
+=> (input)=""
+        this is the event that occur every time the user enter someting on the elemen so we can hanble the event tha user input something on the text
+=>(click)=""
+=>  $event 
+        this will pass the data into the function that is about the the event important in event binding         
+==============================================================
+Decorators 
+        decotators are used to tell angular to the are some specific item you need to consider ,those are express by using the @symbol
+        @component @derectives
+
+===============================================================
+@derecitives
+        directive are used to tell some extra infimation about the element that we are gonna be rendered 
+    ngif="var" => if a directive that is only render when the var is true,
+   (structural derectives) *ngIf=""   =>* is used to tell angular to element can be render or  not
+   (attrivute derectives) 
+    
